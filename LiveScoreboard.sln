@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiveScoreboard", "LiveScoreboard\LiveScoreboard.csproj", "{3209F74B-4529-40E4-A1AE-2C3894D3BB5A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{9B198DA8-2513-43AC-8878-E53899B91568}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.md = ReadMe.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiveScoreboard.Tests", "LiveScoreboard.Tests\LiveScoreboard.Tests.csproj", "{DF23B715-9F10-4E0B-8893-128AF2D9B8F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3209F74B-4529-40E4-A1AE-2C3894D3BB5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3209F74B-4529-40E4-A1AE-2C3894D3BB5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3209F74B-4529-40E4-A1AE-2C3894D3BB5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3209F74B-4529-40E4-A1AE-2C3894D3BB5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF23B715-9F10-4E0B-8893-128AF2D9B8F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF23B715-9F10-4E0B-8893-128AF2D9B8F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF23B715-9F10-4E0B-8893-128AF2D9B8F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF23B715-9F10-4E0B-8893-128AF2D9B8F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {968AECAC-7707-4A76-80DC-451108E3182B}
+	EndGlobalSection
+EndGlobal
